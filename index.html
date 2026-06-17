@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travfil Travel Services – Educational & Group Tours Philippines</title>
+  <meta name="description" content="Travfil Travel Services – Your trusted Philippine-based travel agency specializing in educational tours, company outings, team building, and group packages.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a class="nav-logo" href="#hero">
+        <img src="assets/Travfil_Logo.jpg" alt="Travfil Travel Services Logo">
+        <span>TRA<em>V</em>FIL</span> <span>TRAVEL SERVICES</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" type="button" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#profile">Company Profile</a></li>
+        <li><a href="#services">What We Offer</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#updates">Updates</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════
+       HERO
+  ══════════════════════════════════════ -->
+  <section id="hero" class="hero" style="background-image: url('assets/Main_BG.png');">
+    <div class="hero-inner">
+      <div class="hero-badge">🇵🇭 Philippine-Based Travel Agency</div>
+      <img class="logo-hero" src="assets/Travfil_Logo.jpg" alt="Travfil Travel Services">
+      <h1>Travel, Learn &amp; <span>Explore</span><br>the Philippines</h1>
+      <p>Your trusted partner for educational tours, group outings, and seamless travel experiences across the Philippines and beyond.</p>
+      <div class="hero-btns">
+        <a href="#packages" class="btn-primary">Explore Packages</a>
+        <a href="#contact" class="btn-outline">Get a Quote</a>
+      </div>
+    </div>
+    
+    <!-- Orange Circle Button with Dropdown -->
+    <button class="red-circle-btn" id="whyChooseBtn" type="button" aria-label="Why Choose Us" aria-controls="whyChooseDropdown" aria-expanded="false">
+      <span class="red-circle-text">Why Choose<br>Us</span>
+    </button>
+    
+    <!-- Dropdown Menu -->
+    <div class="why-choose-dropdown" id="whyChooseDropdown" aria-hidden="true">
+      <ul class="dropdown-list">
+        <li>• DOT ACCREDITED TRAVEL AGENCY</li>
+        <li>• DOT ACCREDITED TOURIST BUS</li>
+        <li>• Bus Transport</li>
+        <li>• Airlines Ticketing</li>
+        <li>• Fieldtrips</li>
+        <li>• Company Outing</li>
+        <li>• Team Building</li>
+        <li>• Hotel Bookings</li>
+        <li>• Bisita Iglesia</li>
+        <li>• And More</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       COMPANY PROFILE
+  ══════════════════════════════════════ -->
+  <section id="profile" class="section">
+    <div class="section-inner">
+      <div class="section-label"><span></span><p>Who We Are</p></div>
+      <h2>Company <em>Profile</em></h2>
+      <p class="section-sub">Learn more about Travfil Travel Services — our people, purpose, and milestones.</p>
+
+      <!-- Tabs -->
+      <div class="tab-btns" role="tablist">
+        <button class="tab-btn active" data-tab="about" role="tab" aria-selected="true" type="button">About Us</button>
+        <button class="tab-btn" data-tab="staff" role="tab" aria-selected="false" type="button">Admin / Staff</button>
+        <button class="tab-btn" data-tab="mv" role="tab" aria-selected="false" type="button">Mission &amp; Vision</button>
+        <button class="tab-btn" data-tab="testi" role="tab" aria-selected="false" type="button">Client Testimonials</button>
+        <button class="tab-btn" data-tab="awards" role="tab" aria-selected="false" type="button">Awards</button>
+      </div>
+
+      <!-- About Us -->
+      <div id="tab-about" class="tab-content active" role="tabpanel">
+        <div class="about-card">
+          <div>
+            <h3>About <span>Travfil</span><br>Travel Services</h3>
+            <p><strong>Welcome to Travfil Travel Services!</strong></p>
+            <br>
+            <p>We specialize in transforming travel into a meaningful learning experience. As a Department of Tourism-certified and fully registered travel company, we take pride in crafting educational tours that are not only safe and affordable but also unforgettable.</p>
+            <br>
+            <p>At Travfil, we believe that the best education often happens beyond the four walls of a classroom. Our carefully designed tours aim to inspire curiosity, broaden horizons, and promote appreciation for culture, history, and nature.</p>
+            <br>
+            <p>Whether you’re planning a local day trip or a multi-day educational journey, we’re here to make every learning experience a memorable adventure.</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-box"><strong>500+</strong><span>Tours Completed</span></div>
+            <div class="stat-box"><strong>20K+</strong><span>Happy Travelers</span></div>
+            <div class="stat-box"><strong>50+</strong><span>Destinations</span></div>
+            <div class="stat-box"><strong>10+</strong><span>Years Experience</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Admin / Staff -->
+      <div id="tab-staff" class="tab-content" role="tabpanel">
+        <div class="staff-section">
+          <h3>Management &amp; Administration</h3>
+          <div class="staff-grid named-staff-grid">
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/mary-jane-sarcia.jpg" alt="Mary Jane Sarcia"></div><h4>Mary Jane Sarcia</h4><p>Operations Manager</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/jayson-sarcia.jpg" alt="Jayson Sarcia"></div><h4>Jayson Sarcia</h4><p>General Manager</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/mary-rose-santillan.jpg" alt="Mary Rose Santillan"></div><h4>Mary Rose Santillan</h4><p>Office Administrator</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/raymund-deano.jpg" alt="Raymund Deano"></div><h4>Raymund Deano</h4><p>Office Liaison</p></div>
+          </div>
+        </div>
+
+        <div class="staff-section">
+          <h3>Marketing Department</h3>
+          <div class="staff-grid named-staff-grid">
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/lowell-santillan.jpg" alt="Lowell Santillan"></div><h4>Lowell Santillan</h4><p>Sr. Area Manager</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/christian-sarcia.jpg" alt="Christian Sarcia"></div><h4>Christian Sarcia</h4><p>Area Manager</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/romark-mortal.jpg" alt="Romark Hortal"></div><h4>Romark Hortal</h4><p>Area Manager</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/princess-sevilla.jpg" alt="Princess Sevilla"></div><h4>Princess Sevilla</h4><p>Jr. Area Manager</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/jake-osala.jpg" alt="Ron Jake Osalla"></div><h4>Ron Jake Osalla</h4><p>Jr. Area Manager</p></div>
+          </div>
+        </div>
+
+        <div class="staff-section">
+          <h3>Tour Facilitators / Tourist Guides</h3>
+          <div class="staff-grid named-staff-grid guide-grid">
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/camille-ogalinola.jpg" alt="Camille Ogalinola"></div><h4>Camille Ogalinola</h4><p>Tour Facilitator / Tourist Guide</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/bia-trinidad.jpg" alt="Bia Trinidad"></div><h4>Bia Trinidad</h4><p>Tour Facilitator / Tourist Guide</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/joshua-frias.jpg" alt="Joshua Frias"></div><h4>Joshua Frias</h4><p>Tour Facilitator / Tourist Guide</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/jomar-licot.jpg" alt="Jomar Licot"></div><h4>Jomar Licot</h4><p>Tour Facilitator / Tourist Guide</p></div>
+            <div class="staff-card"><div class="staff-avatar"><img src="assets/staff/zyrus-saquing.jpg" alt="Zyrus Saquing"></div><h4>Zyrus Saquing</h4><p>Tour Facilitator / Tourist Guide</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mission & Vision -->
+      <div id="tab-mv" class="tab-content" role="tabpanel">
+        <div class="mv-grid">
+          <div class="mv-card">
+            <h3>🎯 Our Mission</h3>
+            <p>To consolidate the best and affordable travel deals that our client will surely enjoy and love.</p>
+          </div>
+          <div class="mv-card teal-accent">
+            <h3>🌟 Our Vision</h3>
+            <p>To be one of the top-rated travel agencies that will serve and bring happiness to every Filipino and foreign traveller.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client Testimonials -->
+      <div id="tab-testi" class="tab-content" role="tabpanel">
+        <div class="testimonials">
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>Travfil organized our school's educational tour to Batangas and it was flawless! The students learned so much and the coordination was superb. Highly recommended!</p>
+            <div class="testi-author">
+              <div class="testi-avatar">MR</div>
+              <div><strong>Ma. Rica Santos</strong><span>School Principal, Bulacan</span></div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>Our company team building in Bataan was perfectly planned by Travfil. The activities were fun and the transport was very comfortable. Will book again!</p>
+            <div class="testi-author">
+              <div class="testi-avatar">JM</div>
+              <div><strong>Jose Miguel Cruz</strong><span>HR Manager, Manila</span></div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>Booked our Boracay package through Travfil and everything was seamless — from the hotel to the activities. the bank transfer process was convenient too!</p>
+            <div class="testi-author">
+              <div class="testi-avatar">AL</div>
+              <div><strong>Ana Liza Reyes</strong><span>Tourist, Cavite</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Awards -->
+      <div id="tab-awards" class="tab-content" role="tabpanel">
+        <div class="awards-grid">
+          <div class="award-card"><div class="award-icon">🏆</div><h4>Best Educational Tour Agency</h4><p>Philippine Travel Industry Awards 2023</p></div>
+          <div class="award-card"><div class="award-icon">⭐</div><h4>Top Group Tour Provider</h4><p>National Travel Excellence Awards 2022</p></div>
+          <div class="award-card"><div class="award-icon">🎖️</div><h4>Most Trusted Travel Agency</h4><p>Consumer Choice Awards Philippines 2024</p></div>
+          <div class="award-card"><div class="award-icon">🌟</div><h4>Outstanding Customer Service</h4><p>Tourism Department Recognition 2023</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       WHAT WE OFFER
+  ══════════════════════════════════════ -->
+  <section id="services" class="section alt">
+    <div class="section-inner">
+      <div class="section-label"><span></span><p>What We Offer</p></div>
+      <h2>Our <em>Services</em></h2>
+      <p class="section-sub">Comprehensive travel solutions for every group and occasion.</p>
+      <div class="services-carousel-shell" aria-label="Travfil services carousel">
+        <div class="services-carousel" data-services-carousel tabindex="0" role="region" aria-label="Our services, auto-scrolling carousel">
+          <div class="services-track">
+            <div class="service-card">
+              <div class="service-icon">🎓</div>
+              <h3>Educational Tours</h3>
+              <p>Immersive learning experiences designed for schools, universities, and educational institutions.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🏢</div>
+              <h3>Team Building &amp; Outings</h3>
+              <p>Corporate events and team building activities that strengthen bonds and create unforgettable memories.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🚌</div>
+              <h3>Tourist Transport Rental</h3>
+              <p>Modern, comfortable, and well-maintained buses for all your group transportation needs.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🌍</div>
+              <h3>Domestic &amp; International Packages</h3>
+              <p>Explore stunning destinations across the Philippines and beyond with our curated tour packages.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">✈️</div>
+              <h3>Airline Ticketing</h3>
+              <p>Professional flight booking and ticketing services for seamless travel coordination.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🏨</div>
+              <h3>Hotel &amp; Resort Arrangements</h3>
+              <p>Partnerships with premium accommodations to ensure comfortable and memorable stays.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       WHY US
+  ══════════════════════════════════════ -->
+  <section id="why" class="section">
+    <div class="section-inner">
+      <div class="section-label"><span></span><p>Our Strengths</p></div>
+      <h2>Why <em>Choose Us</em></h2>
+      <p class="section-sub">Educational tours and group trips designed around your learning goals, safety, comfort, and convenience.</p>
+      <div class="why-grid why-grid-five">
+        <div class="why-card">
+          <div class="why-icon">📝</div>
+          <h3>Customized Educational Tours</h3>
+          <p>Local and regional trips tailored to your school’s curriculum and goals.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🏛️</div>
+          <h3>Cultural and Heritage Excursions</h3>
+          <p>Discover the rich traditions, history, and heritage of the Philippines.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🌿</div>
+          <h3>Science and Nature-Based Learning Trips</h3>
+          <p>Engage with nature parks, museums, and eco-tour destinations.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🤝</div>
+          <h3>Team-Building and Leadership Camps</h3>
+          <p>Foster teamwork and personal development through fun and guided activities.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">✅</div>
+          <h3>All-Inclusive Packages</h3>
+          <p>Transportation, guides, insurance, and documentation — all taken care of.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PACKAGES PREVIEW
+  ══════════════════════════════════════ -->
+  <section id="packages" class="section alt">
+    <div class="section-inner">
+      <div class="section-label"><span></span><p>Package Proposal</p></div>
+      <h2>Featured Tour <em>Packages</em></h2>
+      <p class="section-sub">Carefully curated educational and group tour packages with complete coordination and assistance.</p>
+      <div class="packages-grid">
+        <div class="pkg-card">
+          <div class="pkg-media-banner pkg-image-banner">
+            <img src="assets/enchanted-kingdom.webp" alt="Enchanted Kingdom package banner">
+          </div>
+          <div class="pkg-header">
+            <h3>Enchanted Kingdom Educational Tour</h3>
+            <span class="pkg-duration">₱1,950 per head</span>
+          </div>
+          <p class="pkg-desc">A fun and educational tour package combining leisure, food production learning, and community exploration.</p>
+          <ul class="pkg-highlights">
+            <li>Enchanted Kingdom with Agila EKsperience</li>
+            <li>Gardenia Bakeries</li>
+            <li>Lucky Me Noodle Factory</li>
+            <li>Nuvali</li>
+          </ul>
+          <div class="pkg-footer">
+            <div class="pkg-tags">
+              <span class="tag">Educational</span>
+              <span class="tag">Theme Park</span>
+              <span class="tag">Factory Tour</span>
+            </div>
+            <a href="#contact" class="btn-primary package-cta" data-package="Enchanted Kingdom with Agila EKsperience - ₱1,950/head"><span>Book This</span><span>Package</span></a>
+          </div>
+        </div>
+
+        <div class="pkg-card">
+          <div class="pkg-media-banner pkg-video-banner" data-video-banner>
+            <video class="pkg-video" preload="metadata" playsinline poster="assets/zoobic-safari-poster.jpg">
+              <source src="assets/zoobic-safari.mp4" type="video/mp4">
+            </video>
+            <button class="pkg-video-play" type="button" aria-label="Play Zoobic Safari package video">▶</button>
+          </div>
+          <div class="pkg-header">
+            <h3>Zoobic Safari Heritage Tour</h3>
+            <span class="pkg-duration">₱1,990 per head</span>
+          </div>
+          <p class="pkg-desc">A package featuring wildlife experience, Philippine heritage stops, and shopping convenience.</p>
+          <ul class="pkg-highlights">
+            <li>Zoobic Safari</li>
+            <li>Sunken Church</li>
+            <li>Macapagal Museum</li>
+            <li>Duty Free</li>
+          </ul>
+          <div class="pkg-footer">
+            <div class="pkg-tags">
+              <span class="tag">Wildlife</span>
+              <span class="tag">Heritage</span>
+              <span class="tag">Group Tour</span>
+            </div>
+            <a href="#contact" class="btn-primary package-cta" data-package="Zoobic Safari Package - ₱1,990/head"><span>Book This</span><span>Package</span></a>
+          </div>
+        </div>
+
+        <div class="pkg-card">
+          <div class="pkg-media-banner pkg-video-banner" data-video-banner>
+            <video class="pkg-video" preload="metadata" playsinline poster="assets/ocean-adventure-poster.jpg">
+              <source src="assets/ocean-adventure.mp4" type="video/mp4">
+            </video>
+            <button class="pkg-video-play" type="button" aria-label="Play Ocean Adventure package video">▶</button>
+          </div>
+          <div class="pkg-header">
+            <h3>Ocean Adventure Historical Tour</h3>
+            <span class="pkg-duration">₱2,140 per head</span>
+          </div>
+          <p class="pkg-desc">A balanced educational package with marine attractions, church history, museum learning, and Duty Free stop.</p>
+          <ul class="pkg-highlights">
+            <li>Ocean Adventure</li>
+            <li>Barasoain Church and Museum Tour</li>
+            <li>Museo ng Kasaysayang Pampulitika</li>
+            <li>Duty Free</li>
+          </ul>
+          <div class="pkg-footer">
+            <div class="pkg-tags">
+              <span class="tag">Marine</span>
+              <span class="tag">Museum</span>
+              <span class="tag">Educational</span>
+            </div>
+            <a href="#contact" class="btn-primary package-cta" data-package="Ocean Adventure Package - ₱2,140/head"><span>Book This</span><span>Package</span></a>
+          </div>
+        </div>
+
+        <div class="pkg-card">
+          <div class="pkg-media-banner pkg-video-banner" data-video-banner>
+            <video class="pkg-video" preload="metadata" playsinline poster="assets/pradera-poster.jpg">
+              <source src="assets/pradera.mp4" type="video/mp4">
+            </video>
+            <button class="pkg-video-play" type="button" aria-label="Play Pradera Island package video">▶</button>
+          </div>
+          <div class="pkg-header">
+            <h3>Pradera Island Cultural Tour</h3>
+            <span class="pkg-duration">₱2,420 per head</span>
+          </div>
+          <p class="pkg-desc">A premium package featuring theme park activities, Kapampangan culture, history, and heritage destinations.</p>
+          <ul class="pkg-highlights">
+            <li>Pradera Island Theme Park</li>
+            <li>Santungan ning Kulturang Kapampangan</li>
+            <li>Macapagal Museum</li>
+            <li>Sunken Church</li>
+          </ul>
+          <div class="pkg-footer">
+            <div class="pkg-tags">
+              <span class="tag">Theme Park</span>
+              <span class="tag">Culture</span>
+              <span class="tag">Heritage</span>
+            </div>
+            <a href="#contact" class="btn-primary package-cta" data-package="Pradera Island Theme Park Package - ₱2,420/head"><span>Book This</span><span>Package</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PACKAGE INCLUSIONS
+  ══════════════════════════════════════ -->
+  <section id="inclusions" class="section">
+    <div class="section-inner">
+      <div class="section-label"><span></span><p>Inclusions</p></div>
+      <h2>Package <em>Inclusions</em></h2>
+      <p class="section-sub">Every package includes essential coordination, entrance arrangements, and group tour support.</p>
+      <div class="inclusions-card">
+        <ul class="pkg-highlights inclusions-list">
+          <li>Use of 49-seater tourist bus with PA system</li>
+          <li>All entrance fees and parking fees</li>
+          <li>All bookings, reservations, and permits</li>
+          <li>Assistance of tourist guide</li>
+          <li>Provision of tour materials</li>
+          <li>Comprehensive travel insurance onboard and outside the bus</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PAYMENT
+  ══════════════════════════════════════ -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="payment-section">
+        <h3>🏦 Bank / Wire Transfer</h3>
+        <p>Payments are accepted through BDO bank transfer only.</p>
+        <div class="bank-transfer-card">
+          <img class="bdo-payment-logo" src="assets/bdo_travfil.png" alt="BDO Travfil Travel Services bank account details">
+          <div class="bank-transfer-details">
+            <strong>BDO — Travfil Travel Services</strong>
+            <span>Account No.: 002720319879</span>
+            <small>Please send proof of payment after completing your transfer.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       LATEST UPDATES
+  ══════════════════════════════════════ -->
+  <section id="updates" class="section alt">
+    <div class="section-inner">
+      <div class="section-label"><span></span><p>Latest News</p></div>
+      <h2>Latest <em>Updates</em></h2>
+      <p class="section-sub">Discover new venues and exciting announcements from Travfil.</p>
+      <div class="updates-grid">
+        <div class="update-card">
+          <div class="update-img navy-bg">
+            🏝️
+            <div class="update-badge">New Venue</div>
+          </div>
+          <div class="update-body">
+            <div class="update-date">May 2026</div>
+            <h3>Now Available: Siargao Island Package</h3>
+            <p>We've added Siargao to our lineup — surf, culture, and island-hopping for groups and school tours.</p>
+          </div>
+        </div>
+        <div class="update-card">
+          <div class="update-img navy-light-bg">
+            🏔️
+            <div class="update-badge">New Venue</div>
+          </div>
+          <div class="update-body">
+            <div class="update-date">April 2026</div>
+            <h3>Mt. Pulag Eco-Educational Tours</h3>
+            <p>New partnership with local guides for responsible eco-tourism and biology field study packages.</p>
+          </div>
+        </div>
+        <div class="update-card">
+          <div class="update-img teal-bg">
+            🌺
+            <div class="update-badge">Promo</div>
+          </div>
+          <div class="update-body">
+            <div class="update-date">March 2026</div>
+            <h3>Summer Group Tour Promo 2026</h3>
+            <p>Book before June 30 and get special group rates for Palawan, Coron, and El Nido packages.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CONTACT US
+  ══════════════════════════════════════ -->
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <div class="section-label"><span></span><p>Reach Out</p></div>
+      <h2>Contact <em>Us</em></h2>
+      <p class="section-sub">Ready to plan your next tour? Send us a message or visit us today.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div><strong>Address</strong><span>Block 25 Lot 39 Carmelita St. Stateland Hills Subd Brgy Manggahan Gen. Trias Cavite</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div><strong>Phone</strong><span>046-4403036</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div><strong>Viber</strong><span>0955-5695286 / 0955-5696224</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div><strong>Email</strong><span>travfilmarketing@yahoo.com</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💬</div>
+            <div><strong>Facebook</strong><span>facebook.com/TravfilTravelServices</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🏦</div>
+            <div><strong>Bank / Wire Transfer</strong><span>BDO — Travfil Travel Services<br>Account No.: 002720319879</span></div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="https://formsubmit.co/travfilmarketing@yahoo.com" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="New Website Inquiry - Travfil Travel Services">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" class="hidden-field" tabindex="-1" autocomplete="off">
+
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+          <div class="form-row">
+            <input type="text" id="first-name" name="First Name" placeholder="Name" required>
+            <input type="text" id="last-name" name="Last Name" placeholder="Last Name" required>
+          </div>
+          <input type="tel" id="contact-number" name="Contact Number" placeholder="Contact Number" required>
+          <select id="service" name="Service Interested In" required>
+            <option value="">Select Service Interested In</option>
+            <option>Enchanted Kingdom with Agila EKsperience - ₱1,950/head</option>
+            <option>Zoobic Safari Package - ₱1,990/head</option>
+            <option>Ocean Adventure Package - ₱2,140/head</option>
+            <option>Pradera Island Theme Park Package - ₱2,420/head</option>
+            <option>Educational Tour Package</option>
+            <option>Company Outing / Team Building</option>
+            <option>Tourist Transport Rental</option>
+            <option>International / Domestic Package</option>
+            <option>Airline Ticketing</option>
+          </select>
+          <textarea id="message" name="Message" placeholder="Message" required></textarea>
+          <button type="submit" class="btn-primary">Send Inquiry ✈️</button>
+          <div id="form-msg" class="form-msg" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/Travfil_Logo.jpg" alt="Travfil Logo">
+        <strong>TRAVFIL Travel Services</strong>
+        <p>Your trusted Philippine travel partner for educational tours, group outings, and seamless travel experiences.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#profile">Company Profile</a></li>
+          <li><a href="#services">What We Offer</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#updates">Latest Updates</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Educational Tours</a></li>
+          <li><a href="#services">Team Building</a></li>
+          <li><a href="#services">Transport Rental</a></li>
+          <li><a href="#services">International Tours</a></li>
+          <li><a href="#services">Airline Ticketing</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Travfil Travel Services. All Rights Reserved.</span>
+      <span>🇵🇭 Proudly Philippine-Based</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
